@@ -6,11 +6,7 @@ host= "9ef80d52-30b9-4e45-833a-75059db0825c-bluemix.cloudant.com"
 url = 'https://' + host
 client = Cloudant(user, password, url=url, connect=True)   
 
-app = Flask(__name__)
-app.config['SECRET_KEY']="QWERTYUIOPASDFGHJKLZXCVBNM"
-
-
-@app.route('/')
+print("*****************")
 
 Heroku
 Requirement.txt
