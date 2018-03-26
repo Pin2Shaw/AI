@@ -7,3 +7,4 @@ url = 'https://' + host
 client = Cloudant(user, password, url=url, connect=True)   
 
 print("*****************")
+print ("Gunalan")
