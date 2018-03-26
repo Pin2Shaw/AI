@@ -7,7 +7,3 @@ url = 'https://' + host
 client = Cloudant(user, password, url=url, connect=True)   
 
 print("*****************")
-
-Heroku
-Requirement.txt
-proc file
