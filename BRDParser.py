@@ -48,7 +48,7 @@ class BRD:
                 values.append(value)
                 # tokenize the words in the sentence
                 print(sent_tokenize(value))
-                print("*********************************************")
+                print("******************************************")
                 words = word_tokenize(value)
                 # Words are tagged so, that they can be identified which one is verb/Noun/ Pronoun
                 tagged = nltk.pos_tag(words)
